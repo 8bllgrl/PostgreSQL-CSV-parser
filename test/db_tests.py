@@ -270,7 +270,8 @@ class TestDatabase(unittest.TestCase):
         insert_data_from_df_with_japanese(csvdf, table_name, connection)
         cursor = connection.cursor()
 
-
+    # def test_quest_table_exists(self):
+        
     @staticmethod
     def run_all_tests():
         test_loader = unittest.TestLoader()

@@ -25,6 +25,14 @@ class TestIO(unittest.TestCase):
         file_path = project_root / 'rsrc' / 'csv' / 'eng' / 'cut_scene' / '022'  # Relative to the project root
         self.assertTrue(file_path.exists(), f"File {file_path} does not exist")
 
+        project_root = Path(__file__).resolve().parent.parent
+        file_path = project_root / 'rsrc' / 'csv' / 'eng' / 'Quest.csv'
+        self.assertTrue(file_path.exists(), f"File {file_path} does not exist")
+
+        project_root = Path(__file__).resolve().parent.parent
+        file_path = project_root / 'rsrc' / 'csv' / 'jp' / 'Quest.csv'
+        self.assertTrue(file_path.exists(), f"File {file_path} does not exist")
+
 
 
 

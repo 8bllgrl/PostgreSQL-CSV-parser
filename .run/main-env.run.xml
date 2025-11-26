@@ -8,7 +8,7 @@
       <env name="PYTHONUNBUFFERED" value="1" />
       <env name="DB_HOST" value="localhost" />
       <env name="DB_NAME" value="dialogdb" />
-      <env name="DB_PASSWORD" value="Mew_&amp;_Kuromi." />
+      <env name="DB_PASSWORD" value="welcome0nion$k!n321sb1978" />
       <env name="DB_PORT" value="5432" />
       <env name="DB_USER" value="postgres" />
     </envs>
